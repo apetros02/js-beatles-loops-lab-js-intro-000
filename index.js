@@ -1,5 +1,6 @@
 function theBeatlesPlay(musicians, instruments) {
-  let i = musicians.length;
   const Beatles = [];
-
+  for ( var i = musicians.length; i<= 0, i--) {
+    Beatles.push(`${musicians[i]} plays the ${instruments[i]}.`)
+  }
 }
